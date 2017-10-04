@@ -1,0 +1,19 @@
+.stopwatch {
+  width: 700px;
+  padding: 15px; }
+  .stopwatch .display {
+    height: 200px;
+    font-size: 150px;
+    text-align: center; }
+  .stopwatch .buttons {
+    display: flex; }
+    .stopwatch .buttons button {
+      flex-grow: 1;
+      margin: 0 5px 4px;
+      border-radius: 5px;
+      font-size: 16px;
+      border: 0; }
+    .stopwatch .buttons .start {
+      background-color: #5d5; }
+    .stopwatch .buttons .clear {
+      background-color: #55d; }
